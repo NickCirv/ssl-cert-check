@@ -1,0 +1,36 @@
+{
+  "name": "ssl-cert-check",
+  "version": "1.0.0",
+  "description": "Check SSL certificate expiry for multiple domains — get days remaining and color-coded alerts",
+  "type": "module",
+  "bin": {
+    "ssl-cert-check": "./index.js",
+    "sslcheck": "./index.js"
+  },
+  "scripts": {
+    "test": "node index.js github.com google.com --format json"
+  },
+  "keywords": [
+    "developer-tools",
+    "cli",
+    "nodejs",
+    "zero-dependencies",
+    "ssl",
+    "tls",
+    "certificate",
+    "monitoring",
+    "expiry",
+    "devops",
+    "security"
+  ],
+  "author": "NickCirv",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
