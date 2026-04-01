@@ -1,3 +1,5 @@
+![Banner](banner.svg)
+
 # ssl-cert-check
 
 Zero-dependency CLI to check SSL certificate expiry for multiple domains in parallel. Color-coded alerts, JSON/CSV output, file input, full chain inspection — all with Node.js built-ins only.
