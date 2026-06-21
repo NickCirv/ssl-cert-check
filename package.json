@@ -8,7 +8,7 @@
     "sslcheck": "./index.js"
   },
   "scripts": {
-    "test": "node index.js github.com google.com --format json"
+    "test": "node --test"
   },
   "keywords": [
     "developer-tools",
@@ -26,7 +26,7 @@
   "author": "NickCirv",
   "license": "MIT",
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=20"
   },
   "files": [
     "index.js",
